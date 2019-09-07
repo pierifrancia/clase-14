@@ -3,6 +3,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #f1f1f1;
+    margin: 0;
 }
 
 header {
@@ -22,7 +23,7 @@ img {
     width: 100%;
 }
 
-.card, .posts-card{
+.card, .posts-card, .tags {
     margin: 20px;
     background-color:white;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
@@ -45,7 +46,8 @@ aside {
     padding: 5px;
 }
 
-.posts-card {
+.tags p {
+    display: flex;
 }
 
 
@@ -60,4 +62,25 @@ aside {
 section {
     width: 100%;
 }
+}
+
+footer {
+    background-color: #555555;
+    height: 130px;
+    padding: 25px;
+}
+
+button {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+}
+
+footer p {
+    color: white;
+    font-size: 13px;
+    margin-top: 50px;
 }
