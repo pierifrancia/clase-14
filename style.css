@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    text-align: center;
+}
+
+#unknown {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display:flex;
+}
+
+img {
+    width: 100%;
+}
+
+.card, .posts-card{
+    margin: 20px;
+    background-color:white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.text-card {
+    padding: 15px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+.posts-card img {
+    width: 25%;
+    padding: 5px;
+}
+
+.posts-card {
+}
+
+
+@media (max-width: 600px) {
+main {
+    display: flex;
+    flex-direction: column; 
+}
+aside {
+    width: 100%;
+}
+section {
+    width: 100%;
+}
+}
